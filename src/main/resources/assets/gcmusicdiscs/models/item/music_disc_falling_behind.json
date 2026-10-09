@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gcmusicdiscs:item/music_disc_falling_behind"
+  }
+}

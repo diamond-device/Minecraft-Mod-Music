@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "jukebox_song.gcmusicdiscs.falling_behind"
+  },
+  "length_in_seconds": 174,
+  "sound_event": "gcmusicdiscs:music_disc.falling_behind"
+}

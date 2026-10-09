@@ -1,0 +1,10 @@
+{
+  "music_disc.falling_behind": {
+    "sounds": [
+      {
+        "name": "gcmusicdiscs:records/falling_behind",
+        "stream": true
+      }
+    ]
+  }
+}
