@@ -1,4 +1,10 @@
 {
   "item.gcmusicdiscs.music_disc_falling_behind": "Music Disc",
-  "jukebox_song.gcmusicdiscs.falling_behind": "Laufey - Falling Behind"
+  "jukebox_song.gcmusicdiscs.falling_behind": "Laufey - Falling Behind",
+  "item.gcmusicdiscs.music_disc_the_mind_electric": "Music Disc",
+  "jukebox_song.gcmusicdiscs.the_mind_electric": "Miracle Musical - The Mind Electric",
+  "item.gcmusicdiscs.music_disc_after_dark": "Music Disc",
+  "jukebox_song.gcmusicdiscs.after_dark": "Mr.Kitty - After Dark",
+  "item.gcmusicdiscs.music_disc_cicada": "Music Disc",
+  "jukebox_song.gcmusicdiscs.cicada": "Good Kid - Cicada"
 }

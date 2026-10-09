@@ -6,5 +6,29 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.the_mind_electric": {
+    "sounds": [
+      {
+        "name": "gcmusicdiscs:records/the_mind_electric",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.after_dark": {
+    "sounds": [
+      {
+        "name": "gcmusicdiscs:records/after_dark",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.cicada": {
+    "sounds": [
+      {
+        "name": "gcmusicdiscs:records/cicada",
+        "stream": true
+      }
+    ]
   }
 }

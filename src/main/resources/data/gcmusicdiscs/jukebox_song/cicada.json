@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "jukebox_song.gcmusicdiscs.cicada"
+  },
+  "length_in_seconds": 166,
+  "sound_event": "gcmusicdiscs:music_disc.cicada"
+}

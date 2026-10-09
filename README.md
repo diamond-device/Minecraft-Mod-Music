@@ -7,6 +7,9 @@
 | Disc | Song |
 |------|------|
 | `music_disc_falling_behind` | Laufey - Falling Behind |
+| `music_disc_the_mind_electric` | Miracle Musical - The Mind Electric |
+| `music_disc_after_dark` | Mr.Kitty - After Dark |
+| `music_disc_cicada` | Good Kid - Cicada |
 
 ## Requirements
 
@@ -19,6 +22,8 @@
 ./gradlew build        # jar ends up in build/libs/
 ./gradlew runClient    # launch a dev client
 ```
+
+CI builds the jar on every push and pull request (`.github/workflows/build.yml`); download it from the run's Artifacts.
 
 Get a disc in-game with `/give @s gcmusicdiscs:music_disc_falling_behind`.
 

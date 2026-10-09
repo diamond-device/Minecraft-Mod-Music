@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "jukebox_song.gcmusicdiscs.the_mind_electric"
+  },
+  "length_in_seconds": 216,
+  "sound_event": "gcmusicdiscs:music_disc.the_mind_electric"
+}

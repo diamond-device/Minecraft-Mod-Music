@@ -37,5 +37,8 @@ public class ModItems {
 
     // --- Discs (tools/add_disc.py appends new ones above the marker) ---
     public static final DeferredItem<Item> FALLING_BEHIND = disc("falling_behind");
+    public static final DeferredItem<Item> THE_MIND_ELECTRIC = disc("the_mind_electric");
+    public static final DeferredItem<Item> AFTER_DARK = disc("after_dark");
+    public static final DeferredItem<Item> CICADA = disc("cicada");
     // ADD_DISCS_ABOVE
 }
