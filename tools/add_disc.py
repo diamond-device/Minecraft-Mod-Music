@@ -15,6 +15,7 @@ What it does (everything the code can't do for you):
   - generates a 16x16 placeholder texture (replace it with your own art any time)
   - adds the sounds.json and en_us.json entries
   - adds the registration line to ModItems.java
+  - adds the disc to the dungeon loot table (chests/dungeon_discs.json)
 
 <id> must be lowercase letters, digits and underscores. Needs ffprobe and Pillow.
 """
@@ -34,6 +35,7 @@ ASSETS = ROOT / "src/main/resources/assets" / MODID
 DATA = ROOT / "src/main/resources/data" / MODID
 MOD_ITEMS = ROOT / "src/main/java/com/diamond/gcmusicdiscs/ModItems.java"
 MARKER = "// ADD_DISCS_ABOVE"
+LOOT_TABLE = DATA / "loot_table/chests/dungeon_discs.json"
 
 
 def load_json(path: Path) -> dict:
@@ -134,6 +136,15 @@ def main() -> int:
     lang[f"item.{MODID}.music_disc_{a.id}"] = "Music Disc"
     lang[f"jukebox_song.{MODID}.{a.id}"] = f"{a.artist} - {a.title}"
     save_json(lang_path, lang)
+
+    # dungeon loot (the table is attached to minecraft:chests/simple_dungeon by a global loot modifier)
+    loot = load_json(LOOT_TABLE)
+    if loot:
+        entries = loot["pools"][0]["entries"]
+        item_id = f"{MODID}:music_disc_{a.id}"
+        if not any(e.get("name") == item_id for e in entries):
+            entries.append({"type": "minecraft:item", "name": item_id})
+            save_json(LOOT_TABLE, loot)
 
     # Java registration
     java = MOD_ITEMS.read_text(encoding="utf-8")

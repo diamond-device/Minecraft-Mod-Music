@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.2 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "gcmusicdiscs:music_disc_falling_behind" },
+        { "type": "minecraft:item", "name": "gcmusicdiscs:music_disc_the_mind_electric" },
+        { "type": "minecraft:item", "name": "gcmusicdiscs:music_disc_after_dark" },
+        { "type": "minecraft:item", "name": "gcmusicdiscs:music_disc_cicada" }
+      ]
+    }
+  ]
+}

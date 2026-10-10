@@ -11,6 +11,12 @@
 | `music_disc_after_dark` | Mr.Kitty - After Dark |
 | `music_disc_cicada` | Good Kid - Cicada |
 
+## Loot
+
+The discs can appear in dungeon chests (`minecraft:chests/simple_dungeon`): each chest has a 20% chance of one random disc.
+This is done with a NeoForge global loot modifier (`data/gcmusicdiscs/loot_modifiers/dungeon_discs.json`) that adds
+`data/gcmusicdiscs/loot_table/chests/dungeon_discs.json`; change `chance` there to tune it.
+
 ## Requirements
 
 - JDK 21
